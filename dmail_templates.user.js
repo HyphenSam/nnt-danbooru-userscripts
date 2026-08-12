@@ -196,6 +196,19 @@ const DMAIL_TEMPLATES_MISC = [
         Please familiarize yourself with [[about:mod queue]] and [[howto:appeal]]. You can ask in topic #7934 if your posts are frequently ending up deleted and you don't know why.
         `
     },
+    {
+        name: "Artist vandalism from artists",
+        title: "About your artist edits",
+        message: `
+        You are receiving this message because you attempted to mass remove artist URLs or tags.
+
+        Our artist database is the mechanism that allows us to make sure that all art has a source and is attributed to its creator. This database is based on fully public information.
+        Removing these URLs or these tags from Danbooru won't prevent other users from adding them again, nor will it remove them from other databases such as Gelbooru or SauceNao, which are not affiliated to us.
+
+        There's solutions available if you want to hide specific art from an artist tag, or you want to split artist tags completely (such as SFW vs NSFW accounts, or old vs new accounts). If that's the case, please reply to this message with details so that we may assist you.
+
+        `
+    },
 ]
 
 
